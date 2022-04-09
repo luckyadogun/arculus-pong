@@ -38,6 +38,7 @@ The `main.py` contains the following classes:
 ### How this code can be made better
 - The classes could be refactored into separate modules for testing and easy of change
 - Integrating a test-case
+- Duck-typing: Some of the classes share similar methods which could be extracted so it can be easily maintenable.
 - Create multi-players with a network capabilities to add new players
 - Showcase scores
 - Dockerize the code to make it OS agnostic and setup-friendly
